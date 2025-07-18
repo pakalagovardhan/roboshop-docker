@@ -1,4 +1,4 @@
-FROM mavan
+FROM maven
 WORKDIR /opt/server
 Copy pom.xml .
 Copy src /opt/server/src
